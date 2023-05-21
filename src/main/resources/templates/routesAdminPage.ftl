@@ -1,7 +1,6 @@
 <#import "templ/templ.ftl" as p>
 <@p.pages>
     <h1>Products</h1>
-    <p>sad asd asd asd</p>
 
     <hr>
     <h2> Save Product to DB </h2>
@@ -116,8 +115,8 @@
             <#--            <td>Id</td>-->
             <td>Name</td>
             <td>Description</td>
-            <td>Image</td>
             <td>Price</td>
+            <td>Image</td>
             <td>Category
             <td>Update</td>
             <td>Delete</td>

@@ -1,4 +1,4 @@
-package ua.com.bus_cash_final.config;
+package ua.com.antonsh.config;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -43,11 +43,11 @@ public class WebSecurityConfig {
                 .authorizeHttpRequests((authorize)->authorize
                         .requestMatchers("/","/registration", "/registration/**").permitAll()
                         .requestMatchers("/categorymanager","/productmanager", "/customermanager")
-                        .hasRole("Admin")
+                        .hasRole("User")
                         .requestMatchers("/info")
                         .hasRole("User")
                         .requestMatchers("/manager")
-                        .hasRole("Manager")
+                        .hasRole("User")
                         .anyRequest().authenticated()
                 )
                 .formLogin((form)-> form

@@ -76,7 +76,7 @@
         <thead>
         <tr>
             <#--            <td>Id</td>-->
-            <td>City</td>
+            <td>Name</td>
             <td>Image</td>
             <td>Update</td>
             <td>Delete</td>
